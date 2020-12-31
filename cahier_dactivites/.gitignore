@@ -1,0 +1,11 @@
+*.aux
+*.blg
+*.fdb_latexmk
+*.bbl
+*.fls
+*.log
+*.out
+improvingGlints.pdf
+*.synctex.gz
+*.toc
+cahier_activites.pdf
