@@ -10,6 +10,8 @@
 2. Go to the root of bgfx directory and run the command ``` ..\bx\tools\bin\windows\genie.exe --platform=x64 --with-tools --with-examples --with-windows=10 vs2019 ``` to build all examples for Windows with Visual Studio 2019. Consult the help of ```genie``` to see how to build the project if you are on another platform.
 3. The Visual Studio project is then available under the ```.build``` directory.
 
+The implementation is done in an example called **xx-specular-antialiasing** in ```examples```.
+
 ## Results
 **Without specular antialiasing:**   
 ![result-without-specular-antialiasing](/uploads/4a86edebf66a9b9f5e8621fbedbc2b2d/result-without-specular-antialiasing.png)
