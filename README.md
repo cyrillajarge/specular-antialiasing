@@ -14,10 +14,9 @@ The implementation is done in an example called **xx-specular-antialiasing** in 
 
 ## Results
 **Without specular antialiasing:**   
-![result-without-specular-antialiasing](/uploads/4a86edebf66a9b9f5e8621fbedbc2b2d/result-without-specular-antialiasing.png)
+![result-without-specular-antialiasing](https://user-images.githubusercontent.com/32383570/103460990-2bd88d00-4d1b-11eb-943a-c8f1391510b8.png)
 **With specular antialiasing:**
-![result-with-specular-antialiasing](/uploads/14d46fc2c4f885a3f974bc09f3923acb/result-with-specular-antialiasing.png)
-
+![result-with-specular-antialiasing](https://user-images.githubusercontent.com/32383570/103460992-2c712380-4d1b-11eb-855c-120a0fa92c35.png)
 
 ## References
 <a id="1">[1]</a> 
