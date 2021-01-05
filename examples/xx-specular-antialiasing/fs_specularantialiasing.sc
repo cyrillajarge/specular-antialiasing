@@ -195,11 +195,11 @@ void specularAnitalisasing(vec3 h, inout vec2 roughness)
 	vec2 dhu = dFdx(hxy);
 	vec2 dhv = dFdy(hxy);
 
-	vec2 pFootprint = abs(dhu) + abs(dhv) * 0.5;
+	vec2 pFootprint = abs(dhu) + abs(dhv);
 	
 	vec2 cov = pFootprint * pFootprint;
 
-	roughness = sqrt(2.0 * cov + roughness * roughness);
+	roughness = sqrt(cov + roughness * roughness);
 }
 
 float V_SmithGGX(vec3 l, vec3 v, float roughness) {
