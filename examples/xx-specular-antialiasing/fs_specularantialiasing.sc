@@ -188,7 +188,7 @@ float LambdaBeckmann(vec3 omega, float alpha)
 	}
 }
 
-void specularAnitalisasing(vec3 h, inout vec2 roughness)
+void specularAntialiasing(vec3 h, inout vec2 roughness)
 {
 	vec2 hxy = h.xy;
 
@@ -272,7 +272,7 @@ void main()
 
 		if(u_antialiasing[0])
 		{
-			specularAnitalisasing(h, roughness);
+			specularAntialiasing(h, roughness);
 		}
 
 		float p22_ggx_aniso = P22_GGX_Aniso(h, roughness);
